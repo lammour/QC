@@ -13,7 +13,7 @@ roiManager("Show All with labels");
 roiManager("UseNames", "true");
 run("Clear Results");
 n = nSlices
-half_n = floor(n/2)
+half_n = floor(n/2)+1
 setSlice(half_n);
 
 // External circle of the water phantom
